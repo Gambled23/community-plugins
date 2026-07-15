@@ -84,3 +84,14 @@ icon = "palette"
 description = "Pick a color from your screen with hyprpicker."
 min_noctalia = "5.0.0"
 tags = ["theming", "utility", "bar", "panel"]
+
+[[plugin]]
+id = "nikolaj-zwergius/iio_lock"
+name = "iio-lock"
+version = "1.0.0"
+author = "nikolaj-zwergius"
+license = "MIT"
+icon = "lock"
+description = "Orientation lock for 2‑in‑1 devices using iio-hyprland and similar."
+min_noctalia = "5.0.0"
+tags = ["hyprland", "sway", "desktop", "utility"]
