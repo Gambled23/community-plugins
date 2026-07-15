@@ -61,3 +61,15 @@ icon = "lock"
 description = "Access Proton Pass from the launcher"
 min_noctalia = "5.0.0"
 tags = ["launcher"]
+
+[[plugin]]
+id = "gambled23/mangowm-keymode"
+name = "Mangowm Keymode"
+version = "1.0.0"
+author = "gambled23"
+license = "MIT"
+icon = "keyboard"
+description = "Mangowm keymode notifier"
+deprecated = false
+min_noctalia = "5.0.0"
+tags = ["bar", "mangowc"]
