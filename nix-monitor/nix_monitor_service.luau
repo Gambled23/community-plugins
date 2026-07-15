@@ -275,4 +275,5 @@ end
 
 function onExit(signal)
     cancelRemoteCheck()
+    cancelSystemCheck()
 end
