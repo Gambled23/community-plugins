@@ -1,7 +1,7 @@
 id = "nikolaj-zwergius/iio_lock"
 name = "iio-lock"
 version = "1.0.0"
-min_noctalia = "5.0.0"
+plugin_api = 3
 author = "nikolaj-zwergius"
 license = "MIT"
 dependencies = ["pgrep","pkill","iio-hyprland","iio-sway","hyprctl","swaymsg"]

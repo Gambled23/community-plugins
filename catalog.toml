@@ -14,18 +14,18 @@ license = "MIT"
 icon = "at"
 description = "A bar widget that displays Swatch Internet (.beat) Time"
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["fun", "clock", "utility", "time"]
 
 [[plugin]]
 id = "whyoolw/sharednd"
 name = "ShareDND"
-version = "1.1.0"
+version = "1.1.1"
 author = "whyoolw"
 license = "MIT"
 icon = "screen-share"
-description = "Enables notification Do Not Disturb while the screen is shared (niri screencast) and turns notifications back on when sharing stops. Requires niri."
-min_noctalia = "5.0.0"
+description = "Automatically enables notification Do Not Disturb while a niri screencast is active."
+plugin_api = 3
 tags = ["privacy", "niri"]
 
 [[plugin]]
@@ -36,7 +36,7 @@ author = "nzlov"
 license = "MIT"
 icon = "photo"
 description = "Fetches a new daily wallpaper from Bing or NASA."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["wallpaper", "desktop"]
 
 [[plugin]]
@@ -48,7 +48,7 @@ license = "MIT"
 icon = "package"
 description = "A plugin that provides a widget for displaying system update information."
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["system", "arch"]
 
 [[plugin]]
@@ -59,7 +59,7 @@ author = "LucasOe"
 license = "MIT"
 icon = "lock"
 description = "Access Proton Pass from the launcher"
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["launcher"]
 
 [[plugin]]
@@ -71,18 +71,18 @@ license = "MIT"
 icon = "keyboard"
 description = "Mangowm keymode notifier"
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["bar", "mangowc"]
 
 [[plugin]]
 id = "oldirtty/color_picker"
 name = "Color Picker"
-version = "1.0.1"
+version = "1.0.3"
 author = "oldirtty"
 license = "MIT"
 icon = "palette"
 description = "Pick a color from your screen with hyprpicker."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["theming", "utility", "bar", "panel"]
 
 [[plugin]]
@@ -93,28 +93,116 @@ author = "nikolaj-zwergius"
 license = "MIT"
 icon = "lock"
 description = "Orientation lock for 2‑in‑1 devices using iio-hyprland and similar."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["hyprland", "sway", "desktop", "utility"]
 
 [[plugin]]
 id = "radimous/prismlauncher-instances"
 name = "PrismLauncher Instances"
-version = "1.0.0"
+version = "1.0.1"
 author = "radimous"
 license = "MIT"
 icon = "nut"
-description = "A launcher provider that adds PrismLauncher instances to the noctalia launcher."
+description = "A launcher provider that adds PrismLauncher and PrismLauncher fork instances to the noctalia launcher."
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["gaming", "launcher"]
 
 [[plugin]]
 id = "avivbintangaringga/nix-monitor"
 name = "Nix Monitor"
-version = "1.0.0"
+version = "1.1.1"
 author = "avivbintangaringga"
 license = "MIT"
 icon = "package"
 description = "Nixpkgs update monitor"
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["nixos", "utility"]
+
+[[plugin]]
+id = "nightwatch75/todo"
+name = "To Do"
+version = "0.0.7"
+author = "nightwatch75"
+license = "MIT"
+icon = "checklist"
+description = "A prioritised task list with a bar widget and editable panel."
+plugin_api = 3
+tags = ["bar", "panel", "productivity"]
+
+[[plugin]]
+id = "8bury/mini-docker"
+name = "Mini Docker"
+version = "1.0.3"
+author = "8bury"
+license = "MIT"
+icon = "brand-docker"
+description = "Manage Docker containers, images, volumes, and networks from Noctalia."
+plugin_api = 3
+tags = ["bar", "panel", "service", "development", "system", "utility"]
+
+[[plugin]]
+id = "thatonecalculator/um5606_fan_state"
+name = "ASUS UM5606 Fan State"
+version = "1.0.6"
+author = "ThatOneCalculator"
+license = "MIT"
+icon = "car-fan"
+description = "Set the fan state on the ZenBook S 16 UM5606."
+plugin_api = 3
+tags = ["hardware"]
+
+[[plugin]]
+id = "rxtsel/portctl"
+name = "Portctl"
+version = "0.2.0"
+author = "Cristhian Melo"
+license = "MIT"
+icon = "plug"
+description = "Inspect and kill listening TCP/UDP ports."
+plugin_api = 3
+tags = ["network", "utility", "development", "indicator", "bar", "panel", "service"]
+
+[[plugin]]
+id = "lux/ideapad-conservation-mode"
+name = "IdeaPad Conservation Mode"
+version = "0.3.0"
+author = "lux"
+license = "MIT"
+icon = "device-laptop"
+description = "Toggles battery conservation mode via the ideapad_acpi driver, on Lenovo IdeaPad and Legion laptops."
+plugin_api = 3
+tags = ["hardware", "shortcut", "system"]
+
+[[plugin]]
+id = "goodroot/noctwhspr"
+name = "noctwhspr"
+version = "1.0.0"
+author = "goodroot"
+license = "MIT"
+icon = "microphone"
+description = "Noctalia companion for hyprwhspr: shows dictation state, click to record, right-click to restart."
+plugin_api = 3
+tags = ["audio", "bar", "recording", "utility"]
+
+[[plugin]]
+id = "nightwatch75/file-search"
+name = "File Search"
+version = "0.0.9"
+author = "nightwatch75"
+license = "MIT"
+icon = "search"
+description = "Search files and folders as you type, fuzzy-matched with fzf; open results with the system MIME association."
+plugin_api = 3
+tags = ["bar", "launcher", "panel", "utility", "productivity"]
+
+[[plugin]]
+id = "h465855hgg/lyrics"
+name = "Lyrics"
+version = "1.1.0"
+author = "h465855hgg"
+license = "MIT"
+icon = "music"
+description = "Synchronized lyrics with karaoke highlighting, animated transitions, and flexible lyric sources."
+plugin_api = 3
+tags = ["bar", "service", "music", "media", "animation"]

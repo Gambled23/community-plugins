@@ -1,7 +1,7 @@
 id = "neuro/upbeat"
 name = "Upbeat"
 version = "1.0.1"
-min_noctalia = "5.0.0"
+plugin_api = 3
 author = "neuro"
 license = "MIT"
 dependencies = []
